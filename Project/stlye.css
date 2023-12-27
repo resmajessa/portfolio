@@ -1,0 +1,74 @@
+
+body{
+    background-image: url(panda.png);
+    background-repeat: no-repeat;
+   position: static;
+}
+.con{
+   /* display: flex;*/
+    justify-content: center;
+    align-items: center;
+    padding: 255px;
+    position: absolute;
+    left: 250px;
+    margin-bottom: 100px;
+    /* border: 5px solid black;*/
+}
+img{
+    height: 400px;
+    width: 400px;
+    border-radius: 150px;
+    border: 6px solid rgb(12, 12, 12);
+    align-items: center;
+    top: 100px;
+    position: absolute;
+    
+}
+
+p{
+    color: rgb(14, 13, 13);
+    font-size: 50px;
+    position: absolute;
+    bottom: -116px;
+    right: -200px;
+    
+
+}
+h3{
+    position: absolute;
+    bottom: -130px;
+    right: -150px;
+
+}
+.bt{
+    position: absolute;
+    bottom: -200 px;
+    right: -10px;
+    border-radius: 8px;
+    padding: 12px 28px;
+    font-size: 18px;
+    background-color: cornflowerblue;
+}
+.bt:hover{
+    background-color: rgb(138, 138, 136);
+}
+h1{
+    right: 900px;
+    position: absolute;
+    top: 200px;
+    font-size: 60px;
+}
+h6{
+    right: 900px;
+    position: absolute;
+    top: 200px;
+    font-size: 50px;
+
+}
+.lol{
+    left: 200px;
+    position: absolute;
+    bottom: 300px;
+    font-size: 50px;
+
+}
